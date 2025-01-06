@@ -1,0 +1,43 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+  font-family: Roboto, Arial, Verdana, sans-serif;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+}
+
+.color-grid {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.color-grid .color-box {
+  width: 50px;
+  height: 50px;
+
+}
+
+.color1 {
+  background-color: #009B77;
+}
+
+.color2 {
+  background-color: rgb(154,62,194);
+}
+
+.color3 {
+  background-color: pink;
+}
+
+.color4 {
+  background-color: hsl(340,63%,60%);
+}
+
+.color5 {
+  background-color: rgba(89,153,217,0.4);
+}
